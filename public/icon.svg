@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="MyShoppingList">
+  <rect width="512" height="512" rx="112" fill="#0ea5e9"/>
+  <g fill="none" stroke="#ffffff" stroke-width="26" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M132 140h34l40 200h150l40-140H190"/>
+    <circle cx="214" cy="386" r="22" fill="#ffffff" stroke="none"/>
+    <circle cx="360" cy="386" r="22" fill="#ffffff" stroke="none"/>
+    <path d="M262 210v76M300 210v76M338 210v76"/>
+  </g>
+</svg>

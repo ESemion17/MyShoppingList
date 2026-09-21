@@ -1,0 +1,42 @@
+# Supabase project config. `project_id` is used for local dev; linking a real
+# project is done with `supabase link --project-ref <ref>`.
+project_id = "myshoppinglist"
+
+[api]
+enabled = true
+port = 54321
+schemas = ["public", "storage", "graphql_public"]
+extra_search_path = ["public", "extensions"]
+max_rows = 1000
+
+[db]
+port = 54322
+major_version = 15
+
+[studio]
+enabled = true
+port = 54323
+
+[storage]
+enabled = true
+file_size_limit = "10MiB"
+
+[auth]
+enabled = true
+site_url = "http://localhost:5173"
+additional_redirect_urls = ["http://localhost:5173"]
+jwt_expiry = 3600
+enable_signup = true
+
+[auth.email]
+enable_signup = true
+# For faster development you can disable email confirmation:
+enable_confirmations = false
+
+[realtime]
+enabled = true
+
+# The receipt parser. Keep JWT verification on — the function also checks
+# family membership itself.
+[functions.parse-receipt]
+verify_jwt = true
