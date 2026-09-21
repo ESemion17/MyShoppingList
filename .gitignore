@@ -18,10 +18,11 @@ supabase/.branches
 supabase/.temp
 supabase/.env
 
-# editor / OS
+# editor / OS / tooling
 .DS_Store
 .vscode/*
 !.vscode/extensions.json
+.claude/
 .idea
 *.suo
 *.ntvs*
